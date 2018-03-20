@@ -7,7 +7,7 @@ html {
 
 body {
     width: 100%;
-    background-color: #ffda0c;
+    background-color: #ffffff;
 }
 
 .header {
@@ -34,19 +34,8 @@ h1 {
     border-bottom: 1px solid black;
 }
 
-.title {
-    width: 35vw;
-    margin: auto;
-}
-
-.description {
-    width: 20vw;
-    margin: auto;
-}
-
-.details {
-    margin: auto;
-    text-align: right;
+p {
+    text-align: left;
 }
 
 #end {
