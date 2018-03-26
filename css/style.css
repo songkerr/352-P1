@@ -22,17 +22,6 @@ h1 {
     color: #353535;
 }
 
-/*
-h2 {
-    float: right;
-    margin-right: 6%;
-    text-align: center;
-    width: 50%;
-    color: #353535;
-    font-weight: 100;
-}
-*/
-
 #mockup {
     position: absolute;
     display: block;
@@ -42,10 +31,33 @@ h2 {
 }
 
 .body-text {
-    height: 100vh;
-    padding-bottom: 2%;
+    margin-top: 6%;
+    margin-bottom: 12%;
 }
 
+.flex-container {
+    display: flex;
+    margin: auto;
+    width: 80vw;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+p {
+    width: 34vw;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.flex-container > div:nth-of-type(2){
+    width: 40vw;
+}
+
+#float {
+    width: 100%;
+}
+
+/*
 p {
     padding-top: 20vh;
     width: 35%;
@@ -62,11 +74,8 @@ p {
     float: right;
     width: 50vw;
 }
+*/
 
-#end {
-    margin-bottom: 6%;
-    border: none;
-}
 
 @media(max-width: 1000px) {
     
@@ -75,8 +84,5 @@ p {
         align-items: center;
         text-align: center;
     }
-    
-    .title, .description {
-        width: 80%;
-    }
+
 }
