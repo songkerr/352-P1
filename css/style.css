@@ -17,20 +17,22 @@ div.hidden {
     height: 100vh;
     margin: auto;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 90vw;
+    justify-content: space-between;
+    width: 80vw;
 }
 
 #mockup {
-    height: 70vh;
+    height: 65vh;
     padding-top: 12vh;
+    margin-left: 3%;
 }
 
 h1 {
     margin-top: 40vh;
-    margin-left: 5%;
-    width: 40vw;
+    margin-left: 8%;
+    width: 60vw;
+    font-size: 3.5rem;
+    transition: ease 0.4s;
 }
 
 .body-text {
@@ -47,9 +49,10 @@ h1 {
 }
 
 p {
-    width: 34vw;
+    width: 30vw;
     text-align: justify;
     text-align-last: center;
+    margin-top: 35%;
 }
 
 .flex-container > div:nth-of-type(2){
@@ -60,17 +63,30 @@ p {
     width: 100%;
 }
 
-@media(max-width: 1024px) {
+@media(max-width: 1800px) {
+    p {
+        margin-top: 8%;
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 1200px) {
+
+    .hero {
+        flex-direction: column;
+    }
     
     #mockup {
-        padding-top: 4%;
-        height: 60vh;
-        order: 2;
+        padding-top: 16%;
+        max-height: 50vh;
     }
     
     h1 {
-        width: 70vw;
-        margin-top: 12%
+        width:  60vw;
+        margin: auto;
+        text-align: center;
+        font-size: 2.5rem;
+        transition: ease 0.4s;
     }
     
     .flex-container {
