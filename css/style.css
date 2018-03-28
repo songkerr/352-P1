@@ -78,7 +78,8 @@ p {
     
     #mockup {
         padding-top: 16%;
-        max-height: 50vh;
+/*        height: 50vh;
+        width: auto;*/
     }
     
     h1 {
