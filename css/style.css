@@ -17,7 +17,7 @@ div.hidden {
     height: 100vh;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 80vw;
 }
 
@@ -30,7 +30,7 @@ div.hidden {
 h1 {
     margin-top: 40vh;
     margin-left: 8%;
-    width: 50vw;
+    width: 45vw;
     font-size: 3.5rem;
     transition: ease 0.4s;
 }
